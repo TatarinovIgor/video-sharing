@@ -9,6 +9,11 @@ function LeftMenu(props) {
     <Menu.Item key="mail">
       <a href="/">Home</a>
     </Menu.Item>
+
+    <Menu.Item key="upload">
+      <a href="/upload">Upload</a>
+    </Menu.Item>
+
     <SubMenu title={<span>Blogs</span>}>
       <MenuItemGroup title="Item 1">
         <Menu.Item key="setting:1">Option 1</Menu.Item>
